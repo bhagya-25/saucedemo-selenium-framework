@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SauceDemoSuite" parallel="false">
+
+    <test name="RegressionTests">
+        <packages>
+            <!-- Run ALL test classes inside this package -->
+            <package name="com.saucedemo.tests" />
+        </packages>
+    </test>
+
+</suite>
